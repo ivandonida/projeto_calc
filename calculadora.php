@@ -8,7 +8,8 @@
    <form action="" method="post" >
       Primeiro Numero: <input name="num1" type="text"><br>
       Segundo numero: <input name="num2" type="text"><br>
-      <input type="submit" name="operacao" value="+">   
+      <input type="submit" name="operacao" value="+">  
+      <input type="submit" name="operacao" value="-"> 
          
    </form> 
 <?php
