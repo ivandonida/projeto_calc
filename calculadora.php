@@ -21,8 +21,10 @@
    if( !empty($op) ) {
       if($op == '+')
          $c = $a + $b;
+   else if($op == '-')
+         $c = $a - $b;
       
-      echo "O resultado da soma é: $c";
+      echo "O resultado da operação é: $c";
    }
 
 ?>   
